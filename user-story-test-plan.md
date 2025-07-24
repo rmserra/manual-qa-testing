@@ -1,4 +1,56 @@
-Test plan US-001: User Registration via API
+**Test plan US-001: User Registration via API**
+
+# Table of Contents
+
+1. [Document Information](#1-document-information)  
+   1.1 [Author](#11-author)  
+   1.2 [Revision history](#12-revision-history)  
+   1.3 [Approval process and reviewers](#13-approval-process-and-reviewers)  
+
+2. [Introduction](#2-introduction)  
+   2.1 [Overview](#21-overview)  
+   2.2 [Scope](#22-scope)  
+   &nbsp;&nbsp;&nbsp;&nbsp;2.2.1 [In scope](#221-in-scope)  
+   &nbsp;&nbsp;&nbsp;&nbsp;2.2.2 [Out of scope](#222-out-of-scope)  
+   2.3 [Project Information](#23-project-information)  
+   2.4 [Schedule and Milestones](#24-schedule-and-milestones)  
+   2.5 [Reference material](#25-reference-material)  
+   2.6 [Definitions and acronyms](#26-definitions-and-acronyms)  
+
+3. [Testing Strategy](#3-testing-strategy)  
+   3.1 [Features to be tested](#31-features-to-be-tested)  
+   &nbsp;&nbsp;&nbsp;&nbsp;3.1.1 [User Registration Functionality](#311-user-registration-functionality)  
+   &nbsp;&nbsp;&nbsp;&nbsp;3.1.2 [Field Validations](#312-field-validations)  
+   &nbsp;&nbsp;&nbsp;&nbsp;3.1.3 [Security Validations](#313-security-validations)  
+   &nbsp;&nbsp;&nbsp;&nbsp;3.1.4 [Database Verification](#314-database-verification)  
+   3.2 [Features not to be tested](#32-features-not-to-be-tested)  
+   3.3 [Deployment scenarios](#33-deployment-scenarios)  
+   3.4 [Testing approach](#34-testing-approach)  
+   &nbsp;&nbsp;&nbsp;&nbsp;3.4.1 [Test Design Techniques](#341-test-design-techniques)  
+
+4. [Test Environment](#4-test-environment)  
+   4.1 [Prerequisites](#41-prerequisites)  
+   4.2 [Operating systems](#42-operating-systems)  
+   4.3 [Hardware](#43-hardware)  
+   4.4 [Software](#44-software)  
+
+5. [Risks and Testing Constraints](#5-risks-and-testing-constraints)  
+   5.1 [Risks and Assumptions](#51-risks-and-assumptions)  
+   &nbsp;&nbsp;&nbsp;&nbsp;5.1.1 [Risks](#511-risks)  
+   &nbsp;&nbsp;&nbsp;&nbsp;5.1.2 [Assumptions](#512-assumptions)  
+   5.2 [Testing Constraints](#52-testing-constraints)  
+   5.3 [Education](#53-education)  
+
+6. [Sample High-Level Test Cases](#6-sample-high-level-test-cases)  
+   6.1 [Successful registration](#61-successful-registration)  
+   6.2 [Missing or invalid required fields](#62-missing-or-invalid-required-fields)  
+   6.3 [Boundary and format validation](#63-boundary-and-format-validation)  
+   &nbsp;&nbsp;&nbsp;&nbsp;6.3.1 [Username length](#631-username-length)  
+   &nbsp;&nbsp;&nbsp;&nbsp;6.3.2 [Age validation](#632-age-validation)  
+   &nbsp;&nbsp;&nbsp;&nbsp;6.3.3 [Email length](#633-email-length)  
+   6.4 [Duplicate entries](#64-duplicate-entries)  
+   6.5 [Security validations](#65-security-validations)  
+   6.6 [Data integrity](#66-data-integrity)  
 
 # 1. Document Information
 
