@@ -16,3 +16,10 @@ This section includes detailed test plans I have developed for different project
 ## Testing Techniques and Types Practiced
 
 Here I describe the main testing techniques and types I have applied across projects, along with practical examples:
+
+- [Calculator Web App Analysis](./testing-approaches/calculator_webapp/calculator_webapp.md)
+- [Regression and re-test - Web app](./testing-approaches/regression-retest/regression-retest.md)
+- [End-to-end - Trello Web App](./testing-approaches/endtoend-trello/endtoend-trello.md)
+- [Multivalue testing](./testing-approaches/multivalue-testing/multivalue-testing.md)
+- [State transition testing - API app](./testing-approaches/state-transition-testing/state-transition.md)
+
